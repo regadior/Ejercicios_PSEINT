@@ -18,7 +18,8 @@ Proceso Cuali_Notas
 			Escribir "Ejemplo"
 		8,9,10:
 			escribir "Bueno ..."
+		De Otro Modo:
+			Escribir "No funciona bro"
 	FinSegun
-De Otro Modo:
-	Escribir "No funciona bro"
+
 FinProceso
