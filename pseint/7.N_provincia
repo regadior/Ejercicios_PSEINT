@@ -17,6 +17,8 @@ Proceso N_provincia
 			Escribir "Orense"
 			36:
 			Escribir "Pontevedra"
+	De Otro Modo:
+		Escribir "Codigo incorrecto"
 	FinSegun
 	
 
