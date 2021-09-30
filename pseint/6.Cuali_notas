@@ -1,0 +1,23 @@
+Proceso Cuali_Notas
+	//Estructura selectiva multiple
+	//Determinar a cualificacion dunha nota obtida a partir dunha nota solicitada
+	Definir a Como Entero 
+	Definir b Como Entero
+	Escribir "Primera nota "
+	Leer a
+	Escribir "Segunda nota "
+	Leer b
+	Segun (a+b)/2 Hacer
+		1,2:
+			Escribir "Fatal"
+		3,4:
+			Escribir "insu "
+		5:
+			Escribir "Por los pelos tontito"
+		6,7,8:
+			Escribir "Ejemplo"
+		8,9,10:
+			escribir "Bueno ..."
+		
+	FinSegun
+FinProceso
