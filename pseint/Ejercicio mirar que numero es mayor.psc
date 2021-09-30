@@ -1,6 +1,6 @@
-Proceso sin_titulo
+Proceso Ejercicio 4
 	//Estructura selectiva simple dobre
-	//Solicitanse dous números e preséntanse en orde ascendente
+	//Solicitanse dous nÃºmeros e presÃ©ntanse en orde ascendente
 	
 	Definir num1 Como Entero
 	Definir num2 Como Entero
