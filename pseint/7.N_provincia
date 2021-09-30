@@ -1,16 +1,16 @@
 Proceso N_provincia
 	//Estructura selectiva multiple
-	//Presentar o nome da provincia a partir dun código Solicitado
-	//16 A coruña
+	//Presentar o nome da provincia a partir dun cÃ³digo Solicitado
+	//16 A coruÃ±a
 	//27 Lugo
 	//32 Orense
 	//36 Pontevedra
 	definir a Como Entero
-	Escribir "Escribe el numero de la provincia"
+	Escribir "Escribe el numero de la provincia" Sin Saltar
 	Leer a
 	Segun a hacer
 			16:
-			Escribir "A Coruña"
+			Escribir "A CoruÃ±a"
 			27:
 			Escribir "Lugo"
 			32:
