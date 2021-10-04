@@ -1,0 +1,5 @@
+Proceso S_N
+	//Escribe un programa que solicite unha confirmacion (s/n)
+	//e mentres o usuario non introduzca un deses dous valores
+	//repite a solicitude
+FinProceso
