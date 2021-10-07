@@ -1,5 +1,32 @@
-Proceso S_N
-	//Escribe un programa que solicite unha confirmacion (s/n)
-	//e mentres o usuario non introduzca un deses dous valores
-	//repite a solicitude
+Proceso nuemros_comprendidos 
+	//Escribir un programa que solicite un par de numeros enteros
+	//Limite inferior e limite superior 
+	//e que despois pida numeros enteriros comprendidos nese rango
+	//programa rematará cando se escriba un numero
+	//que non estea entre os valores inferior e superiror 
+	//escribindo a cantidade de numeros introducidos e a sua suma
+	definir a Como Entero
+	definir b Como Entero
+	definir c Como Entero
+	definir d como entero
+	definir e como entero
+	Escribir "Introduzca o limite inferior " Sin Saltar
+	Leer a
+	Escribir "introduzca o limite superior " Sin saltar
+	Leer b
+	mientras b<a hacer
+		Escribir "Non valido introduzca un numero maior que ", a Sin Saltar
+		leer b
+	FinMientras
+	Escribir "Numeros comprendidos entre ", a," ", b Sin Saltar
+	Leer c
+	si c<a o c>b
+		entonces 
+		Escribir "Numero no comprendido entre ",a," ", b
+	sino
+		mientras c>a y c<b hacer
+			Escribir "Numeros comprendidos entre ", a," ", b Sin Saltar
+			leer c
+		FinMientras
+	FinSi
 FinProceso
