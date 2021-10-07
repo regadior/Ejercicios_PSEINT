@@ -3,7 +3,7 @@ Proceso sin_titulo
 	Definir b Como Entero
 	Escribir "introduce un numero" Sin Saltar
 	Leer a
-	Escribir "numero más grande que el anterior " , aSin Saltar
+	Escribir "numero mÃ¡s grande que el anterior " , aSin Saltar
 	Leer b
 	Mientras a>b hacer
 		Escribir "numero mas grande que el anterior ", a  Sin Saltar
