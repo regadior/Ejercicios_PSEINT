@@ -1,14 +1,33 @@
-Proceso matriz
-	definir i, num Como Entero
+Proceso operaciones_matriz
+	//Escribe un programa que solicite cinco números
+	//enteiros comprendidos entre 1 y 99
+	//e os almacene nunha matriz unidimensional
+	//Unha vez que se introduzan os cinco nímeros se
+	//presentará:
+	//   a suma dos mesmos
+	//   o promedio
+	//   o número máis pequeno
+	//   o número maior
+	
+	Definir i, num Como Entero
 	Dimension num[5]
-	Escribir "escribe 5 numeros entre 1 y 99" sin saltar
-	Para i<-0 hasta 4 hacer
+	
+	//Pedir números
+	Escribir "Escribe 5 números comprendidos entre 1 y 99"
+	Para i<-0 Hasta 4 Hacer
 		Repetir
-			Escribir "escribe el numero", i+1 sin saltar
+			Escribir "Escribe el número ", i+1, ": " Sin Saltar
 			Leer num[i]
-			si num[i] <1 o num[i] >99 Entonces
-				Escribir "Numero no valído prueba otra vez"
+			Si num[i]<1 o num[i]>99 Entonces
+				Escribir "Número no válido, prueba otra vez"
 			FinSi
-		Hasta Que num[i]<=1 o num[i]>=1 
+		Hasta Que num[i]>=1 y num[i]<=99
 	FinPara
+	Escribir""
+	//Escribir la matriz de nuevo
+	Para i<-0 Hasta 4 Hacer
+		Escribir "El elemento número ", i+1, " es: ", num[i], " "
+	FinPara
+	Escribir ""
+
 FinProceso
