@@ -17,13 +17,10 @@ Proceso numprimo
 		SiNo
 			div <- div+1
 		FinSi
-	Hasta Que div=num-1 o prim=Falso
+	Hasta Que div>num-1 o prim=Falso
 	si prim = Verdadero Entonces
 		Escribir "Primo "
 	SiNo
 		Escribir "No primo"
-	FinSi
-	si num=2 o num=3 Entonces
-		Escribir "primo"
 	FinSi
 FinProceso
