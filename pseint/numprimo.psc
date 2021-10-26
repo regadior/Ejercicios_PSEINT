@@ -12,7 +12,7 @@ Proceso numprimo
 		Leer num
 	FinMientras
 	repetir 
-		si num MOD div=0 Entonces
+		si num MOD div=0 y num>3 Entonces
 			prim <- Falso
 		SiNo
 			div <- div+1
@@ -22,5 +22,8 @@ Proceso numprimo
 		Escribir "Primo "
 	SiNo
 		Escribir "No primo"
+	FinSi
+	si num=2 o num=3 Entonces
+		Escribir "primo"
 	FinSi
 FinProceso
